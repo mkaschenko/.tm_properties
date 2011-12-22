@@ -1,0 +1,15 @@
+include = "{.tm_properties,.gitignore}"
+
+
+exclude               = "{Rakefile,README,config.ru,Gemfile.lock}"
+excludeDirectories    = "{tmp,log,doc,script}"
+excludeInFileChooser  = "{tmp,log,doc,script}"
+excludeInFolderSearch = "{tmp,log,doc,script,.DS_Store,Gemfile.lock}"
+
+
+fontName = "Monaco" 
+fontSize = 13
+
+
+tabSize  = 2
+softTabs = true
